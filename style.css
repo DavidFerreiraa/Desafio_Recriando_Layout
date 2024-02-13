@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #2F2E41;
+    padding: 0vh 8vw;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5vh;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+section {
+    text-align: center;
+}
+
+strong > span {
+    color: #00BFA6;
+}
+
+footer {
+    padding: 0vh 5vw;
+    border-top: 0.5px solid #00BFA6;
+}
+
+#description {
+    margin: 10vh 0vw;
+    font-weight: 200;
+}
+
+#padlock {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 15px;
+}
